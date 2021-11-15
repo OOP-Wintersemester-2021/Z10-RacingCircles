@@ -1,7 +1,6 @@
 import de.ur.mi.oop.app.GraphicsApp;
 import de.ur.mi.oop.colors.Color;
 import de.ur.mi.oop.graphics.Circle;
-import de.ur.mi.oop.graphics.Line;
 import de.ur.mi.oop.launcher.GraphicsAppLauncher;
 
 public class RacingCircles extends GraphicsApp {
@@ -61,7 +60,8 @@ public class RacingCircles extends GraphicsApp {
     }
 
     private int getRandomInt(int min, int max) {
-        return min + (int) (Math.random() * (max + 1));
+        int range = (max - min) + 1;
+        return min + (int) (Math.random() * range);
     }
 
     public static void main(String[] args) {
