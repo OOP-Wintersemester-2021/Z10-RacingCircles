@@ -20,7 +20,7 @@ public class RacingCircles extends GraphicsApp {
 
     // Breite des Anwendungsfensters
     private static final int WINDOW_WIDTH = 1280;
-    // Höhre des Anwendungsfensters
+    // Höhe des Anwendungsfensters
     private static final int WINDOW_HEIGHT = 720;
     // Hintergrundfarbe
     private static final Color BACKGROUND_COLOR = GREY;
